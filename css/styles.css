@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+/* navbar */
+nav {
+    width: 90w;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #3b3b39;
+    padding-right: 20px;
+
+}
+
+.left-links a{
+    padding-right: 10px;
+   
+}
+
+/* Google logo */
+.logo {
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    letter-spacing: -3px;
+    
+}
+
+h1 {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 6rem;
+}
+
+#blue {
+    color: #4285f4;
+}
+
+#red {
+    color: #eb4538;
+}
+
+#yellow {
+    color: #fbc018;
+}
+
+#green {
+    color: #34a853;
+}
+
+.rotate {
+    transform: rotate(-15deg); 
+}
+
+/* searchbar */
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#search-container{
+    position: relative;
+    padding-top: 2%;
+    border-radius: 30px;
+    width: 500px;
+    height: 20px;
+    border-radius: 30px;
+    border: 1px solid #e2e2e2;
+    box-shadow: 1px 0px 3px rgb(231, 231, 231);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#magnify-icon {
+    width: 20px;
+    z-index: 30;
+  
+}
+
+input {
+    outline: none;
+    height: 20px;
+    width:500px;
+    border: none;
+    z-index:10;
+  
+}
+
+img {
+    width: 35px;
+    z-index: 20;
+}
+
+/* buttons */
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+button {
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #eff0f1;
+    margin: 0px 10px 0px 10px;
+}
+
+button:hover{
+    border: 1px solid rgb(197, 196, 196);
+}
+
+/* news link */
+.announcement-link {
+    width: 100%;
+    padding-top: 3%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+
+}
+
+footer a{
+    padding: 20px;
+    text-decoration: none;
+    color: #3b3b39;
+    padding-right: 20px;
+
+}
